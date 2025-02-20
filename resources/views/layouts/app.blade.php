@@ -25,15 +25,27 @@
     </head>
     <body class="antialiased bg-indigo-50 relative font-exo">
 
-        <div class="lg:flex min-h-screen  overflow-x-clip">
+        <div class="lg:flex min-h-screen overflow-x-clip">
             <!-- Navigation -->
             <div class="relative relative">
                 @livewire('navigation')
             </div>
-            <!-- Page Content -->
-            <main class="w-full lg:mx-auto">
-            {{ $slot }}
-            </main>
+            <div class="w-full lg:mx-auto min-h-screen flex flex-col justify-between">
+                <!-- Page Content -->
+                <main>
+                    {{ $slot }}
+                </main>
+                <footer class="flex sm:flex-row flex-col items-center justify-end bg-gray-400 text-blue-950 text-sm px-4 py-1 space-y-2">
+                    <div class="w-full uppercase space-x-3 text-center">
+                        <a class="hover:text-blue-500" href="{{ route('terms') }}">Terms</a>
+                        <a class="hover:text-blue-500" href="{{ route('privacy') }}">Privacy</a>
+                        <a class="hover:text-blue-500" href="mailto:info@chimerasite.com">Contact</a>
+                    </div>
+                    <span class="sm:absolute sm:bottom-1">
+                        &copy;<a href="https://chimerasite.com/">Chimerasite</a> <?php echo date("Y"); ?>
+                    </span>
+                </footer>
+            </div>
         </div>
 
         @livewireScripts

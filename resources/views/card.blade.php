@@ -26,11 +26,11 @@
             </div>
             <hr class="w-1/12 m-auto border-t-2 border-gray-950">
             <div class="lg:w-5/6 md:w-3/4 m-auto grid lg:grid-cols-3 gap-x-12 gap-y-6">
-                <x-content>
+                <x-content.socials>
                     <x-slot:text>
                         <h4>SOCIAL MEDIA</h4>
                         <p>
-                            {{ __('You can find my on several contact and social media platforms, mostly as @Chimerasite.') }}
+                            {{ __('You can find me on several contact and social media platforms, mostly as @Chimerasite.') }}
                         </p>
                     </x-slot>
                     <x-slot:icons>
@@ -59,9 +59,9 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" style="fill:#fff" class="lg:size-12 size-14"><path d="M5.873 2c-.32 0-.62.152-.809.412L2.191 6.375A1 1 0 0 0 2 6.963V19a1 1 0 0 0 1 1h4v2a1 1 0 0 0 1 1h1.586a1 1 0 0 0 .707-.293l2.414-2.414a1 1 0 0 1 .707-.293h3.172a1 1 0 0 0 .707-.293l4.414-4.414a1 1 0 0 0 .293-.707V3a1 1 0 0 0-1-1zM6 4h14v9l-3 3h-5l-3 3v-3H6zm6 3a1 1 0 0 0-1 1v3a1 1 0 0 0 2 0V8a1 1 0 0 0-1-1m5 0a1 1 0 0 0-1 1v3a1 1 0 0 0 2 0V8a1 1 0 0 0-1-1" transform="scale(10.66667)" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode:normal"/></svg>
                         </a>
                     </x-slot>
-                </x-content>
+                </x-content.socials>
 
-                <x-content>
+                <x-content.socials>
                     <x-slot:text>
                         <h4>CREATIVE & MORE</h4>
                         <p>
@@ -90,9 +90,9 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="lg:size-12 size-14"><path fill="#fff" d="M31.959 17.737c2.66-3.725 9.676-11.793 14.013-10.237.923.286 1.755 1.046 1.923 2.025.611 2.552-1.496 4.17-5.418 10.566-4.795 7.823-6.267 13.013-8.394 15.104-4.176 4.665-12.637 2.61-11.631-10.119C17.424 33.297 16.18 43.32 7.675 41.63c-8.927-2.418-8.51-23.45-6.435-28.874.142-.691.485-1.314.789-1.941 2.115-4.092 7.016-4.118 9.105-1.69 2.143 2.492 1.518 7.609 1.188 10.958 2.213-3.848 6.053-9.344 9.598-12.072 5.532-4.117 11.918-1.457 10.039 9.726"/></svg>
                         </a>
                     </x-slot>
-                </x-content>
+                </x-content.socials>
 
-                <x-content>
+                <x-content.socials>
                     <x-slot:text>
                         <h4>GAMING</h4>
                         <p>
@@ -131,7 +131,7 @@
                             </a>
                         </x-tooltip>
                     </x-slot>
-                </x-content>
+                </x-content.socials>
             </div>
         </div>
     </div>

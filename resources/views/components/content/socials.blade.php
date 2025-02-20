@@ -3,8 +3,7 @@
         {{ $text }}
     </div>
 
-        <div class="lg:w-3/4 md:w-2/3 sm:w-1/2 w-2/3 m-auto grid grid-cols-3 gap-6 items-center place-content-center w-full">
-            {{ $icons }}
-        </div>
-
+    <div class="lg:w-3/4 md:w-2/3 sm:w-1/2 w-2/3 m-auto grid grid-cols-3 gap-6 items-center place-content-center w-full">
+        {{ $icons }}
+    </div>
 </div>
