@@ -1,5 +1,5 @@
 <x-app-layout>
-    <div class="bg-gray-400 py-8">
+    <div class="bg-gray-400 text-blue-950 py-8">
         <div class="flex justify-center text-center xl:px-56 lg:px-24 md:px-16 sm:px-8 px-4">
             <h1 class="font-matrix">
                 {{ __('Profile Settings') }}

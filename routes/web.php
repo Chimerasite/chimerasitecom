@@ -12,15 +12,25 @@ Route::get('/xerofanzone', function () {
     return redirect()->away('https://xerofanzone.chimerasite.com/');
 })->name('xerofanzone');
 
+// blog
+// Route::get('/blog', function () {
+//     Route::get('/blog', [BlogController::class, 'edit'])->name('blog.index');
+// })->name('blog');
+
+// faq
+// Route::get('/faq', function () {
+//     return view('faq');
+// })->name('faq');
+
 // contact
 Route::get('/card', function () {
     return view('card');
 })->name('card');
 
 // acount
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -37,3 +47,10 @@ Route::get('/privacy', function () {
 })->name('privacy');
 
 require __DIR__.'/auth.php';
+
+
+// TO DO:
+// Recaptcha on register
+// profile dashboard
+// possible blog + backend for blog
+// other page for symmetry when adding blog? faq?

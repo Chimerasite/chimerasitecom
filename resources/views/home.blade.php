@@ -18,9 +18,6 @@
                     Here you'll find a collection of the things I'm working on (or just dreaming up). From fun web experiments to creative side projects, this is where I bring
                     my ideas to life and share them with the world.
                 </p>
-                <p>
-                    No matter if you are here to explore, get inspired or simply have fun, I hope you enjoy the adventure as much as I enjoy creating it!
-                </p>
             </div>
             <hr class="border-1 border-gray-900 rounded-md m-auto mt-6">
         </div>
