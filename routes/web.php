@@ -49,8 +49,3 @@ Route::get('/privacy', function () {
 require __DIR__.'/auth.php';
 
 
-// TO DO:
-// Recaptcha on register
-// profile dashboard
-// possible blog + backend for blog
-// other page for symmetry when adding blog? faq?

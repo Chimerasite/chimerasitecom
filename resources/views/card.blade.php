@@ -21,8 +21,11 @@
         <div class="m-auto text-center space-y-8">
             <div class="md:w-1/2 m-auto text-center">
                 <h3>
-                    {{ __("Hey, I'm Chimera, a") }} {{ $age }} {{ __("year old hobby artist living in the Netherlands. I'm a webdeveloper and sometimes use this knowledge to create fun side projects. I love Pokémon, gaming, books, movies, plushies and animals!") }}
+                    {{ __("Hey I'm Chimerasite or Chimera!") }}
                 </h3>
+                <p>
+                    {{ __("I'm a") }} {{ $age }} {{ __("year old hobby artist living in the Netherlands. I'm a webdeveloper and sometimes use this knowledge to create fun side projects. I love Pokémon, gaming, books, movies, plushies and animals!") }}
+                </p>
             </div>
             <hr class="w-1/12 m-auto border-t-2 border-gray-950">
             <div class="lg:w-5/6 md:w-3/4 m-auto grid lg:grid-cols-3 gap-x-12 gap-y-6">
